@@ -13,11 +13,6 @@ variable "name" {
   description = "Name of solution (i.e. `cert-manager`)"
 }
 
-variable "external_dns_oidc_fully_qualified_subject" {
-  type        = string
-  description = "Service account OIDC FQS"
-}
-
 variable "eks_cluster_name" {
   type        = string
   description = "EKS cluster name"
